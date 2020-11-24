@@ -1,0 +1,21 @@
+[submodule "basalt_ros"]
+	path = basalt_ros
+	url = git@repositorio.cifasis-conicet.gov.ar:robotica/basalt_ros.git
+[submodule "r-vio"]
+	path = r-vio
+	url = git@repositorio.cifasis-conicet.gov.ar:robotica/r-vio.git
+[submodule "rebvo"]
+	path = rebvo
+	url = git@repositorio.cifasis-conicet.gov.ar:robotica/rebvo.git
+[submodule "rovio"]
+	path = rovio
+	url = git@repositorio.cifasis-conicet.gov.ar:robotica/rovio.git
+[submodule "msckf_vio"]
+	path = msckf_vio
+	url = git@repositorio.cifasis-conicet.gov.ar:robotica/msckf_vio.git
+[submodule "svo-2.0"]
+	path = svo-2.0
+	url = git@repositorio.cifasis-conicet.gov.ar:robotica/svo-2.0.git
+[submodule "VINS-Fusion"]
+	path = VINS-Fusion
+	url = git@repositorio.cifasis-conicet.gov.ar:robotica/VINS-Fusion.git
