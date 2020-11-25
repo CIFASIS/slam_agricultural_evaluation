@@ -19,3 +19,15 @@
 [submodule "VINS-Fusion"]
 	path = VINS-Fusion
 	url = git@repositorio.cifasis-conicet.gov.ar:robotica/VINS-Fusion.git
+[submodule "ORB_SLAM3"]
+	path = ORB_SLAM3
+	url = git@repositorio.cifasis-conicet.gov.ar:robotica/ORB_SLAM3.git
+[submodule "FLVIS"]
+	path = FLVIS
+	url = git@repositorio.cifasis-conicet.gov.ar:robotica/FLVIS.git
+[submodule "okvis_ros"]
+	path = okvis_ros
+	url = git@repositorio.cifasis-conicet.gov.ar:robotica/okvis_ros.git
+[submodule "Kimera-VIO-ROS"]
+	path = Kimera-VIO-ROS
+	url = git@repositorio.cifasis-conicet.gov.ar:robotica/Kimera-VIO-ROS.git
