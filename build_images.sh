@@ -5,6 +5,8 @@ CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 . $CURRENT_DIR/modules.config
 
+trap "exit 1" INT
+
 for m in ${MODULES[@]};
 do
   echo "Building $m ..."
