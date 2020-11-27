@@ -10,5 +10,5 @@ trap "exit 1" INT
 for m in ${MODULES[@]};
 do
   echo "Running $m ..."
-  $CURRENT_DIR/$m/run_all_rosario_sequences.sh $DATASET_DIR $CATKIN_WS_DIR
+  $CURRENT_DIR/$m/run_all_rosario_sequences.sh $DATASET_DIR
 done
