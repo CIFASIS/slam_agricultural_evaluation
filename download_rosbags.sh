@@ -1,6 +1,6 @@
 #!/bin/bash
 # Download rosbags from Rosario Dataset official site. The ones that will be
-# download are taken from modules.config.
+# download are taken from evaluation.config.
 # Parameter:
 #   -Path where rosbags will be (it is recommended to download them in local,
 #   and preferably fast, storage). If it does not exist, it will be created.
@@ -16,7 +16,7 @@ DATASET_DIR=$1
 mkdir -p $DATASET_DIR
 cd $DATASET_DIR
 
-. $CURRENT_DIR/modules.config
+. $CURRENT_DIR/evaluation.config
 
 trap "exit 1" INT
 
