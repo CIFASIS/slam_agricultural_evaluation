@@ -9,6 +9,6 @@ trap "exit 1" INT
 
 for m in ${MODULES[@]};
 do
-  echo "Building $m ..."
+  echo "Building Docker image: $m ..."
   $CURRENT_DIR/$m/run.sh -b
 done
