@@ -8,13 +8,14 @@ CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 trap "exit 1" INT
 
 mkdir -p $CATKIN_WS_DIR/src
+mkdir -p $ROS_HOME
 
 git clone $POSE_LISTENER_URL $CATKIN_WS_DIR/src/pose_listener
 
 if command -v catkin &> /dev/null
 then
   catkin init -w $CATKIN_WS_DIR
-  catkin config -w $CATKIN_WS_DIR --cmake-args -DCMAKE_BUILD_TYPE=Release
+  catkin config -w $CATKIN_WS_DIR --cmake-args -DCMAKE_BUILD_TYPE=Release --extend /opt/ros/$ROS_DISTRO
   catkin build -w $CATKIN_WS_DIR
 elif command -v catkin_make &> /dev/null
 then
