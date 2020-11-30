@@ -16,7 +16,7 @@ source /opt/ros/$ROS_DISTRO/setup.bash
 if command -v catkin &> /dev/null
 then
   catkin init -w $CATKIN_WS_DIR
-  catkin config -w $CATKIN_WS_DIR --cmake-args -DCMAKE_BUILD_TYPE=Release --extend /opt/ros/$ROS_DISTRO
+  catkin config -w $CATKIN_WS_DIR --cmake-args -DCMAKE_BUILD_TYPE=Release
   catkin build -w $CATKIN_WS_DIR
 elif command -v catkin_make &> /dev/null
 then
