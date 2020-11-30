@@ -11,6 +11,7 @@ mkdir -p $CATKIN_WS_DIR/src
 mkdir -p $ROS_HOME
 
 git clone $POSE_LISTENER_URL $CATKIN_WS_DIR/src/pose_listener
+source /opt/ros/$ROS_DISTRO/setup.bash
 
 if command -v catkin &> /dev/null
 then
