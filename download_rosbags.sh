@@ -1,22 +1,12 @@
 #!/bin/bash
 # Download rosbags from Rosario Dataset official site. The ones that will be
 # download are taken from evaluation.config.
-# Parameter:
-#   -Path where rosbags will be (it is recommended to download them in local,
-#   and preferably fast, storage). If it does not exist, it will be created.
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-if [ "$#" -ne 1 ]; then
-  echo "Path of Rosario Dataset should be provided as (the only) argument" >&2
-  exit 1
-fi
-
-DATASET_DIR=$1
+. $CURRENT_DIR/evaluation.config
 mkdir -p $DATASET_DIR
 cd $DATASET_DIR
-
-. $CURRENT_DIR/evaluation.config
 
 trap "exit 1" INT
 
