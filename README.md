@@ -81,3 +81,4 @@ To ease the development, each submodule has some scripts (used by the scripts lo
 
 * Update links when moving to CIFASIS's Github (this repo and pose_listener).
 * Update publication information.
+* `run_rosario_sequence.sh` fails when `rostopic list $TOPIC 2> /dev/null` returns more than one result (e.g. `/odometry  /odometry/gps`)
