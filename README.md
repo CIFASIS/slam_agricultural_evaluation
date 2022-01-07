@@ -82,3 +82,5 @@ To ease the development, each submodule has some scripts (used by the scripts lo
 * Update links when moving to CIFASIS's Github (this repo and pose_listener).
 * Update publication information.
 * `run_rosario_sequence.sh` fails when `rostopic list $TOPIC 2> /dev/null` returns more than one result (e.g. `/odometry  /odometry/gps`)
+* When ORB-SLAM3 is launched in DEV mode (`run.sh -d`), it cannot be neither executed nor re-built, because `build` is hidden when `docker run -v <HOST_ORB_SLAM3_DIR>:<CONTAINER_ORB_SLAM3_DIR>` is executed.
+* When DEV mode is launched `build.sh` should be a soft link to `<VIO_METHOD_ROOT>/scripts/build.sh`. This would allow to modify `scripts/build.sh` in the host.
