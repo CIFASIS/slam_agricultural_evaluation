@@ -1,33 +1,33 @@
 [submodule "basalt_ros"]
 	path = basalt_ros
-	url = git@repositorio.cifasis-conicet.gov.ar:robotica/basalt_ros.git
+	url = git@github.com:CIFASIS/basalt_ros.git
 [submodule "r-vio"]
 	path = r-vio
-	url = git@repositorio.cifasis-conicet.gov.ar:robotica/r-vio.git
+	url = git@github.com:CIFASIS/r-vio.git
 [submodule "rebvo"]
 	path = rebvo
-	url = git@repositorio.cifasis-conicet.gov.ar:robotica/rebvo.git
+	url = git@github.com:CIFASIS/rebvo.git
 [submodule "rovio"]
 	path = rovio
-	url = git@repositorio.cifasis-conicet.gov.ar:robotica/rovio.git
+	url = git@github.com:CIFASIS/rovio.git
 [submodule "msckf_vio"]
 	path = msckf_vio
-	url = git@repositorio.cifasis-conicet.gov.ar:robotica/msckf_vio.git
+	url = git@github.com:CIFASIS/msckf_vio.git
 [submodule "svo-2.0"]
 	path = svo-2.0
-	url = git@repositorio.cifasis-conicet.gov.ar:robotica/svo-2.0.git
+	url = git@github.com:CIFASIS/svo-2.0.git
 [submodule "VINS-Fusion"]
 	path = VINS-Fusion
-	url = git@repositorio.cifasis-conicet.gov.ar:robotica/VINS-Fusion.git
+	url = git@github.com:CIFASIS/VINS-Fusion.git
 [submodule "ORB_SLAM3"]
 	path = ORB_SLAM3
-	url = git@repositorio.cifasis-conicet.gov.ar:robotica/ORB_SLAM3.git
+	url = git@github.com:CIFASIS/ORB_SLAM3.git
 [submodule "FLVIS"]
 	path = FLVIS
-	url = git@repositorio.cifasis-conicet.gov.ar:robotica/FLVIS.git
+	url = git@github.com:CIFASIS/FLVIS.git
 [submodule "okvis_ros"]
 	path = okvis_ros
-	url = git@repositorio.cifasis-conicet.gov.ar:robotica/okvis_ros.git
+	url = git@github.com:CIFASIS/okvis_ros.git
 [submodule "Kimera-VIO-ROS"]
 	path = Kimera-VIO-ROS
-	url = git@repositorio.cifasis-conicet.gov.ar:robotica/Kimera-VIO-ROS.git
+	url = git@github.com:CIFASIS/Kimera-VIO-ROS.git
