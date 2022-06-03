@@ -29,7 +29,7 @@ It is necessary to have installed:
 
 * Docker
 * ROS (with rviz)
-* [pose_listener](https://repositorio.cifasis-conicet.gov.ar/robotica/pose_listener)
+* [pose_listener](https://github.com/CIFASIS/pose_listener)
 
 It was everything tested in Ubuntu 16.04, 18.04 and 20.04. We suggest to follow [the steps](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user) to manage Docker as a non-root user to make it easier to run the scripts. With respect to the ROS versions, Kinetic, Melodic and Noetic have been used with their respective Ubuntu's versions. pose_listener is a simple ROS node developed to capture the systems' outputs.
 
@@ -40,7 +40,7 @@ We also recommend to have [evo](https://github.com/MichaelGrupp/evo) installed i
 To clone the repository, execute this:
 
 ```bash
-git clone git@repositorio.cifasis-conicet.gov.ar:robotica/slam_agricultural_evaluation.git
+git clone git@github.com:CIFASIS/slam_agricultural_evaluation.git
 cd slam_agricultural_evaluation
 git submodule update --init --recursive
 ```
