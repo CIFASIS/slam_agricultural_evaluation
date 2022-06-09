@@ -6,7 +6,7 @@ This repository contains different state-of-the-art VIO systems that were evalua
 
 If you use this in some academic work, please cite the related publication:
 
-J. Cremona, R. Comelli, T. Pire, **Experimental Evaluation of Visual-Inertial Odometry in Agricultural Environments**. Journal of Field Robotics, 2022.
+J. Cremona, R. Comelli, T. Pire, **Experimental evaluation of Visual-Inertial Odometry systems for arable farming**. Journal of Field Robotics, 2022. DOI: https://doi.org/10.1002/rob.22099
  
 ```bibtex
 @article{cifasis2022evaluation,
