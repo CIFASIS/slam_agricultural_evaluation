@@ -6,14 +6,18 @@ This repository contains different state-of-the-art VIO systems that were evalua
 
 If you use this in some academic work, please cite the related publication:
 
-J. Cremona, R. Comelli, T. Pire, **Experimental Evaluation of Visual-Inertial Odometry in Agricultural Environments**. Journal of Field Robotics, 2021.
+J. Cremona, R. Comelli, T. Pire, **Experimental Evaluation of Visual-Inertial Odometry in Agricultural Environments**. Journal of Field Robotics, 2022.
  
 ```bibtex
-@InProceedings{cremona2020agrivioeval,
-  title = {Experimental Evaluation of Visual-Inertial Odometry in Agricultural Environments},
-  author = {Cremona, Javier and Comelli, Román and Pire, Taihú},
-  year = {2021},
-  booktitle = {Journal of Field Robotics},
+@article{cifasis2022evaluation,
+ author = {Cremona, Javier and Comelli, Román and Pire, Taihú},
+ title = {Experimental evaluation of Visual-Inertial Odometry systems for arable farming},
+ journal = {Journal of Field Robotics},
+ pages = {},
+ keywords = {agricultural robotics, precision agriculture, SLAM, Visual-Inertial Odometry},
+ doi = {https://doi.org/10.1002/rob.22099},
+ url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.22099},
+ eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.22099}
 }
 ```
 
