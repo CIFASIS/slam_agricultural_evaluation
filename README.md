@@ -15,6 +15,7 @@ J. Cremona, R. Comelli, T. Pire, **Experimental evaluation of Visual-Inertial Od
  journal = {Journal of Field Robotics},
  pages = {},
  keywords = {agricultural robotics, precision agriculture, SLAM, Visual-Inertial Odometry},
+ year = {2022},
  doi = {https://doi.org/10.1002/rob.22099},
  url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.22099},
  eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.22099}
@@ -49,9 +50,9 @@ cd slam_agricultural_evaluation
 git submodule update --init --recursive
 ```
 
-Once this is done (it may take some time), we are ready to build the images and download the Rosario Dataset rosbags. For this and the rest of the things that can be done, the `evaluation.config` file is provided. It defines which modules will be taken into account when building or launching the containers, what sequences will be used or downloaded (and where), where the local catkin workspace will be and the ROS version used, among other things.
+Once this is done (it may take some time), we are ready to build the images and download the Rosario Dataset rosbags. For this and the rest of the things that can be done, the `evaluation.config` file is provided. It defines which modules will be taken into account when building or launching the containers, what sequences will be used (and where they are), where the local catkin workspace will be and the ROS version used, among other things.
 
-So, to download all the sequences and store them in `${HOME}/datasets/robot_desmalezador` (the default), just run:
+So, to download all the sequences and store them in `${HOME}/datasets/robot_desmalezador` (default), just run:
 
 ```bash
 ./download_rosbags.sh
@@ -83,8 +84,6 @@ To ease the development, each submodule has some scripts (used by the scripts lo
 
 # TODO
 
-* Update links when moving to CIFASIS's Github (this repo and pose_listener).
-* Update publication information.
 * `run_rosario_sequence.sh` fails when `rostopic list $TOPIC 2> /dev/null` returns more than one result (e.g. `/odometry  /odometry/gps`)
 * When ORB-SLAM3 is launched in DEV mode (`run.sh -d`), it cannot be neither executed nor re-built, because `build` is hidden when `docker run -v <HOST_ORB_SLAM3_DIR>:<CONTAINER_ORB_SLAM3_DIR>` is executed.
 * When DEV mode is launched `build.sh` should be a soft link to `<VIO_METHOD_ROOT>/scripts/build.sh`. This would allow to modify `scripts/build.sh` in the host.
