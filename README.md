@@ -2,6 +2,8 @@ This repository contains different state-of-the-art VIO systems that were evalua
 
 ![trajectories_sequence_01.png](support_files/media/trajectories_sequence_01.png)
 
+There is also a video that accompanies this publication, available [here](https://youtu.be/H6dWhKUqfJA).
+
 # Publication
 
 If you use this in some academic work, please cite the related publication:
