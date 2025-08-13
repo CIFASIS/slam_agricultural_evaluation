@@ -12,7 +12,7 @@ If you use this in some academic work, please cite the related publication:
 J. Cremona, R. Comelli, T. Pire, **Experimental evaluation of Visual-Inertial Odometry systems for arable farming**. Journal of Field Robotics, 2022. DOI: https://doi.org/10.1002/rob.22099
  
 ```bibtex
-@article{cifasis2022evaluation,
+@article{cremona2022evaluation,
  author = {Cremona, Javier and Comelli, Rom{\'a}n and Pire, Taih{\'u}},
  title = {Experimental evaluation of Visual-Inertial Odometry systems for arable farming},
  journal = {Journal of Field Robotics},
