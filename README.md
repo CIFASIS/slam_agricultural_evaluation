@@ -13,10 +13,12 @@ J. Cremona, R. Comelli, T. Pire, **Experimental evaluation of Visual-Inertial Od
  
 ```bibtex
 @article{cifasis2022evaluation,
- author = {Cremona, Javier and Comelli, Román and Pire, Taihú},
+ author = {Cremona, Javier and Comelli, Rom{\'a}n and Pire, Taih{\'u}},
  title = {Experimental evaluation of Visual-Inertial Odometry systems for arable farming},
  journal = {Journal of Field Robotics},
- pages = {},
+ volume = {39},
+ number = {7},
+ pages = {1121--1135},
  keywords = {agricultural robotics, precision agriculture, SLAM, Visual-Inertial Odometry},
  year = {2022},
  doi = {https://doi.org/10.1002/rob.22099},
